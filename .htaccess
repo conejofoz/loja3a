@@ -1,0 +1,13 @@
+#Impedir que se pueda ver el listado de contenidos de un directorio
+Options All -Indexes
+
+#Url amigables
+RewriteEngine On
+RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?ruta=$1
+
+
+# Adicionar as linhas de cóidog abaixo no arquivo .htaccess
+#  Permite acesso ao pacote Font Awesome
+<FilesMatch ".(ttf|otf|woff)$">
+Header set Access-Control-Allow-Origin "*"
+</FilesMatch>

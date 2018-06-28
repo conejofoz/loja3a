@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/04/2018, 11:03:42
+    Author     : Silvio Coelho
+*/
+
+.cabeceraCarrito{
+    height: 40px;
+}
+.cabeceraCarrito h3{
+    margin-top: -5px;
+}
+.cabeceraCheckout{
+    height: 66px;
+}
+
+
+/*
+CHECKOUT
+*/
+.contenidoCheckout, .contenidoCheckout .row{
+    padding: 0px 20px;
+    
+}
+.formEnvio{
+    display: none;
+}
+
